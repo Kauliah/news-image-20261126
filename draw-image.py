@@ -158,9 +158,9 @@ d.text((MX + 18, LY + 12), "LEAD  ·  EUROPE  ·  BRUSSELS", font=SANS_B(17), fi
 lead_head = ["EU SUMMIT ENDS", "IN DEADLOCK"]
 y = LY + 40
 y = text_block(d, MX + 18, y, lead_head, SERIF_B(46), INK, 52)
-lead_body = ("EU leaders fail to agree a \u20ac1.58 trillion budget and a \u20ac45 billion "
-             "loan for Ukraine on day one of their Brussels summit. Talks resume Friday.")
-y = text_block(d, MX + 18, y + 8, wrap(d, lead_body, SANS(21), 560), SANS(21), (60, 62, 74), 27)
+lead_body = ("EU leaders fail to agree a \u20ac1.58 trillion budget and \u20ac45bn for "
+             "Ukraine. Day two cancelled; talks resume 17\u201318 Dec.")
+y = text_block(d, MX + 18, y + 8, wrap(d, lead_body, SANS(20), 600), SANS(20), (60, 62, 74), 26)
 # illustration: EU emblem + summit table
 ix, iy = W - MX - 320, LY + 14
 d.rounded_rectangle([ix, iy, ix + 302, iy + 208], radius=10, fill=(232, 238, 248), outline=RULE)
